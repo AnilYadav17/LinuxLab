@@ -1,0 +1,80 @@
+	1. Kernel
+The kernel is the core part of an operating system.
+It controls everything at the hardware level.
+
+Key Responsibilities
+Memory management (allocating RAM to processes)
+Process management (creating, scheduling, terminating processes)
+Device management (keyboard, mouse, disk, network, etc.)
+File system management
+Security & permissions
+
+Important point:
+The kernel does NOT interact with the user directly.
+User → Shell → Kernel → Hardware.
+Shell acts as the middleman.
+
+	2. Shell
+
+The shell is a special program that provides an interface between the user and the kernel.
+
+Main Work of Shell
+Accept commands from the user (human-readable)
+Convert them into machine instructions
+Pass them to the kernel
+Display output back to the user
+
+Types of Shells
+bash – Bourne Again Shell (most common)
+sh – Original Bourne Shell
+ksh – Korn Shell
+zsh – Z Shell (advanced features)
+fish – Friendly Interactive Shell (user-friendly)
+
+	3. Shell Scripting
+A shell script is a text file containing multiple shell commands that run sequentially just like a program.
+
+What Shell Scripts Can Do
+File operations
+Program execution
+User interaction
+Automation of repetitive tasks
+System administration tasks
+Backup, monitoring, scheduling etc.
+Basically, anything you can type in the terminal → you can put in a script.
+
+
+	4. Important Requirements for Shell Scripts
+4.1 Script File Creation
+Use any editor like nano, vim, or touch.
+Example:    $ nano script.sh
+
+4.2 Add Shebang (recommended)
+At the top of file:
+#!/bin/bash	#This tells the OS to use bash to run the script.
+
+4.3 Give Execute Permission
+chmod +x script.sh
+
+4.4 Run the Script
+./script.sh
+
+
+	5. Useful Commands During Editing
+If using vim:
+i → start editing
+Esc → exit insert mode
+:wq → save & quit
+:q! → quit without saving
+
+
+	6. Script Folder Example
+You can create a separate folder for your scripts:
+mkdir /root/script
+cd /root/script
+pwd
+Example Output : /root/script
+
+	7. Flow of Command Execution
+User → Shell → Kernel → Hardware
+Shell scripting automates this flow by putting multiple commands inside one file.

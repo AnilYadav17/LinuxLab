@@ -1,0 +1,4 @@
+Apple		Book
+Banana		Bed
+Cherry		Tree
+King		Queen
