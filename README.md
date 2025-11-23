@@ -61,7 +61,7 @@ LinuxLab/
 ## ✨ Cool Animated Banner
 
 <p align="center">
-  <img src="/mnt/data/LinuxLab.png" width="80%" />
+  <img src="/mnt/data/LinuxLab.png" width="10%" />
   <br><i></i>
 </p>
 
